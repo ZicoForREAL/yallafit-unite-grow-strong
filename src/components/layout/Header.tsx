@@ -144,10 +144,10 @@ const Header = ({ isAuthenticated = false, userRole = null }: HeaderProps) => {
                 About
               </Link>
               <Link
-                to="/pricing"
+                to="/store"
                 className="text-sm font-medium text-white hover:text-yalla-green transition-colors"
               >
-                Pricing
+                Store
               </Link>
               <Link
                 to="/contact"
@@ -286,11 +286,11 @@ const Header = ({ isAuthenticated = false, userRole = null }: HeaderProps) => {
                       About
                     </Link>
                     <Link
-                      to="/pricing"
+                      to="/store"
                       className="text-sm font-medium text-white hover:text-yalla-green transition-colors"
                       onClick={() => setMobileMenuOpen(false)}
                     >
-                      Pricing
+                      Store
                     </Link>
                     <Link
                       to="/contact"
